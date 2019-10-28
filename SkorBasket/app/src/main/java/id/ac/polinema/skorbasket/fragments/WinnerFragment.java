@@ -88,6 +88,7 @@ public class WinnerFragment extends Fragment {
 			public void onClick(View view) {
 				sharedScore.setScoreVisitor(0);
 				sharedScore.setScoreHome(0);
+				txtWinner.setText("");
 			}
 		});
 	}
